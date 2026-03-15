@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+*.pem
+
+# Package manager
+.npm
+.yarn/
+.pnpm-store/
+.pnp.*
+package-lock.json
+yarn.lock
+bun.lockb
+
+# Testing & coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE / Editor
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Cursor
+.cursor/
+
+# Misc
+tmp/
+temp/
+*.tmp
+.cache/
